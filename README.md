@@ -1,4 +1,4 @@
-# zce-pages
+# zsj-pages
 
 [![NPM Downloads][downloads-image]][downloads-url]
 [![NPM Version][version-image]][version-url]
@@ -12,10 +12,10 @@
 ## Installation
 
 ```shell
-$ yarn add zce-pages
+$ yarn add zsj-pages
 
 # or npm
-$ npm install zce-pages
+$ npm install zsj-pages
 ```
 
 ## Usage
@@ -23,8 +23,8 @@ $ npm install zce-pages
 <!-- TODO: Introduction of API use -->
 
 ```javascript
-const zcePages = require('zce-pages')
-const result = zcePages('zce')
+const zcePages = require('zsj-pages')
+const result = zcePages('zsj')
 // result => 'zce@zce.me'
 ```
 

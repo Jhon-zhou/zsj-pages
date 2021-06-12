@@ -1,14 +1,14 @@
 {
-  "name": "zce-pages",
+  "name": "zsj-pages",
   "version": "0.2.0",
   "description": "static web app workflow",
   "keywords": [
-    "zce-pages",
-    "zce"
+    "zsj-pages",
+    "zsj"
   ],
-  "homepage": "https://github.com/zce/zce-pages#readme",
+  "homepage": "https://github.com/Jhon-zhou/zsj-pages#readme",
   "bugs": {
-    "url": "https://github.com/zce/zce-pages/issues"
+    "url": "https://github.com/Jhon-zhou/zsj-pages/issues"
   },
   "license": "MIT",
   "author": "zce <w@zce.me> (https://zce.me)",
@@ -17,33 +17,34 @@
     "bin"
   ],
   "main": "lib/index.js",
-  "bin": "bin/zce-pages.js",
+  "bin": "bin/zsj-pages.js",
   "directories": {
     "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zce/zce-pages.git"
+    "url": "git+https://github.com/Jhon-zhou/zsj-pages.git"
   },
   "scripts": {
     "lint": "standard --fix"
   },
   "dependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "browser-sync": "^2.26.7",
-    "del": "^5.1.0",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
-    "gulp-clean-css": "^4.2.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.2.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^6.1.0",
-    "gulp-load-plugins": "^2.0.1",
-    "gulp-sass": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-sass": "^4.1.0",
     "gulp-swig": "^0.9.1",
     "gulp-uglify": "^3.0.2",
-    "gulp-useref": "^3.1.6"
+    "gulp-useref": "^5.0.0"
   },
   "devDependencies": {
     "standard": "^13.1.0"
