@@ -24,7 +24,7 @@ $ npm install zsj-pages
 
 ```javascript
 const zcePages = require('zsj-pages')
-const result = zcePages('zsj')
+const result = zsjPages('zsj')
 // result => 'zce@zce.me'
 ```
 
@@ -32,7 +32,7 @@ const result = zcePages('zsj')
 
 <!-- TODO: Introduction of API -->
 
-### zcePages(name[, options])
+### zsjPages(name[, options])
 
 #### name
 
