@@ -1,11 +1,5 @@
 # zsj-pages
 
-[![NPM Downloads][downloads-image]][downloads-url]
-[![NPM Version][version-image]][version-url]
-[![License][license-image]][license-url]
-[![Dependency Status][dependency-image]][dependency-url]
-[![devDependency Status][devdependency-image]][devdependency-url]
-[![Code Style][style-image]][style-url]
 
 > static web app workflow
 
@@ -23,9 +17,9 @@ $ npm install zsj-pages
 <!-- TODO: Introduction of API use -->
 
 ```javascript
-const zcePages = require('zsj-pages')
+const zsjPages = require('zsj-pages')
 const result = zsjPages('zsj')
-// result => 'zce@zce.me'
+
 ```
 
 ## API
@@ -41,12 +35,6 @@ const result = zsjPages('zsj')
 
 #### options
 
-##### host
-
-- Type: `string`
-- Details: host string
-- Default: `'zce.me'`
-
 ## Contributing
 
 1. **Fork** it on GitHub!
@@ -60,19 +48,7 @@ const result = zsjPages('zsj')
 
 ## License
 
-[MIT](LICENSE) &copy; zce <w@zce.me> (https://zce.me)
+[MIT](LICENSE) &copy;
 
 
 
-[downloads-image]: https://img.shields.io/npm/dm/zce-pages.svg
-[downloads-url]: https://npmjs.org/package/zce-pages
-[version-image]: https://img.shields.io/npm/v/zce-pages.svg
-[version-url]: https://npmjs.org/package/zce-pages
-[license-image]: https://img.shields.io/github/license/zce/zce-pages.svg
-[license-url]: https://github.com/zce/zce-pages/blob/master/LICENSE
-[dependency-image]: https://img.shields.io/david/zce/zce-pages.svg
-[dependency-url]: https://david-dm.org/zce/zce-pages
-[devdependency-image]: https://img.shields.io/david/dev/zce/zce-pages.svg
-[devdependency-url]: https://david-dm.org/zce/zce-pages?type=dev
-[style-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
-[style-url]: https://standardjs.com
